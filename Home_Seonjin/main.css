@@ -18,6 +18,6 @@ section .main-serch{
 .main-serch .serchbar{
     width: 400px;
     height: 50px;
-    border: 5px solid yellow;
+    border: 2px solid yellow;
     border-radius: 30px;
 }
