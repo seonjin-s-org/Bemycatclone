@@ -1,1 +1,31 @@
 @import url('../common.css');
+
+/* header */
+header{
+    background: lightblue;
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+header img{
+    width: 120px;
+}
+header .head-list{
+    width: 100%;
+    /*backgound: tomato;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-size: 24px;
+    font-weight: 700;
+}
+header .head-list .head-item{
+   /* border: 1px solid #000;*/
+}
+/* header */
