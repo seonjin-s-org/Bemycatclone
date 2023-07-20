@@ -65,13 +65,17 @@ body{
     font-size: 38px;
     text-align: center;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 #section1 .main2 ul{
     /* background: orange; */
     display: flex;
     height: 272px;
     justify-content: center;
+}
+#section1 .main2 ul .box{
+    flex-direction: column;
+    align-items: center;
 }
 #section1 .main2 ul li{
     border: 2px solid #fff;
@@ -85,15 +89,76 @@ body{
     flex-direction: column;
     justify-content: center;
     box-shadow: 0 2px 4px rgba(0,0,0,.15), inset 0 1px 10px rgba(0,0,0,.05);
+    text-align: center;
 }
-#section1 .main2 ul li .sns-img:nth-child(1){
-    background: url(../img/naver.png) no-repeat;
+#section1 .main2 ul li .sns-img{
     content: '';
     height: 100px;
     width: 100px;
     position: absolute;
     top: -35px;
     left: 80px;
-
-
+}
+#section1 .main2 ul li .sns-img1{
+    background: url(../img/naver.png) no-repeat;
+}
+#section1 .main2 ul li .sns-img2{
+    background: url(../img/instagram.svg) no-repeat;
+}
+#section1 .main2 ul li .sns-img3{
+    background: url(../img/webtoon.svg) no-repeat;
+}
+#section1 .main2 ul li .sns-img4{
+    background: url(../img/youtube.svg) no-repeat;
+}
+#section1 .main2 ul li h3 {
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+#section1 .main2 ul li p{
+    color: gray;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    display: block;
+}
+#section1 .main2 ul li p span{
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid #000;
+    
+    
+}
+#section1 .main2 ul li .button{
+    background: #fcd11e;
+    border-radius: 20px;
+    color: #414141;
+    box-shadow: 0 4px 4px rgba(0,0,0,.1);
+    font-weight: 700;
+    height: 50px;
+    font-size: 24px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+#section1 .main2 ul li .button2{
+    margin-bottom: 10px;
+}
+#section1 .main2 .contents-detail{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#section1 .main2 div .dog{
+    background: url(../img/dog.png) no-repeat center/cover;
+    height: 170px;
+    width: 115px;
+}
+#section1 .main2 .contants-detail .creater-button{
+    display: flex;
+    align-items: center;
 }
