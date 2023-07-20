@@ -52,8 +52,30 @@ footer{
     
 }
 footer .foot-list{
-
+    border-top: 2px solid #ccc;
+    display: flex;
 }
-footer .foot-list{
-
+footer .foot-list .text-list{
+    /* background: darkgrey; */
+    flex: 1;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+    font-size: 12px;
+}
+footer .foot-list .text-list .foot-item,
+footer .foot-list .icon-list .foot-icon{
+    margin: 20px;
+}
+footer .foot-list .icon-list{
+    /* background: darkgrey; */
+    flex:1;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    font-size: 12px;
 }
