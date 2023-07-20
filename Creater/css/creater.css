@@ -4,9 +4,14 @@ body{
 }
 /* section1 부분 */
 #section1{
-    background: url(../img/bg\(1\).png) no-repeat ;
-    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    margin: 0 auto;
+    background-image: url(../img/bg\(1\).png);
+    width: 100vw;
     height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 #section1 .main{
     width: 80%;
@@ -25,7 +30,7 @@ body{
 #section1 .main .main-part1 h1{
     background: url(../img/bemypet-logo.png) no-repeat center/cover;
     height: 120px;
-    width: 210px;
+    width: 200px;
     margin-bottom: 30px;
 
 }
@@ -43,11 +48,52 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: end;
+    align-items:center;
 }
 #section1 .main .main-part2 .img{
     background: url(../img/cat\(1\).png) no-repeat center/cover;
     width: 270px;
     height: 180px;
+}
+/* main2 */
+#section1 .main2{
+    flex-direction: column;
+    
+}
+#section1 .main2 h2{
+    /* background: red; */
+    font-size: 38px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#section1 .main2 ul{
+    /* background: orange; */
+    display: flex;
+    height: 272px;
     justify-content: center;
+}
+#section1 .main2 ul li{
+    border: 2px solid #fff;
+    width: 227px;
+    height: 272px;
+    border-radius: 15%;
+    background: white;
+    margin: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,.15), inset 0 1px 10px rgba(0,0,0,.05);
+}
+#section1 .main2 ul li .sns-img:nth-child(1){
+    background: url(../img/naver.png) no-repeat;
+    content: '';
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -35px;
+    left: 80px;
+
+
 }
