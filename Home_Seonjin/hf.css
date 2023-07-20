@@ -41,16 +41,11 @@ header .head-list .writer{
     padding: 10px;
     border-radius: 20px;
  }
- header .head-list .head-item .Inr{
- }
 /* header */
 
 
 
 /* footer */
-footer{
-    
-}
 footer .foot-list{
     border-top: 2px solid #ccc;
     display: flex;
