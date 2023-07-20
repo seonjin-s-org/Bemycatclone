@@ -2,7 +2,7 @@
 
 /* header */
 header{
-    background: lightblue;
+    background: white;
     
     display: flex;
     justify-content: center;
@@ -25,11 +25,12 @@ header img{
     width: 80px;
 }
 header .head-list{
-    width: 100%;
     /* background: tomato; */
+
     display: flex;
     justify-content: center;
     align-items: center;
+
     font-size: 18px;
     font-weight: 700;
 }
@@ -53,9 +54,9 @@ header .head-list .head-item{
    margin: 0 25px;
 }
 header .head-list .writer{
-    background: yellow;
-    padding: 10px;
-    border-radius: 20px;
+    background: rgb(255, 208, 39);
+    padding: 15px;
+    border-radius: 25px;
  }
  
 /* header */
