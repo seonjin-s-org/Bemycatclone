@@ -3,29 +3,34 @@
 /* header */
 header{
     background: lightblue;
-
-    width: 80%;
+    padding: 20px; 
+    
+    position: fixed; 
+    width: 100%;
+    top: 0;
+}
+header .head-wrapper{
+    background: lightcoral;
     margin: 0 auto;
-    padding: 20px;
-
+    width: 60%;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    align-items: center;
+    gap: 10px;
 }
 header img{
-    width: 120px;
+    width: 100px;
 }
 header .head-list{
     width: 100%;
-    /*backgound: tomato;*/
+    background: tomato;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
 }
 header .head-list .head-item{
-   /* border: 1px solid #000;*/
+   border: 1px solid #000;
+   margin: 15px;
 }
 /* header */
