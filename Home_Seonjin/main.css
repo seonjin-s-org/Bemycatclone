@@ -1,0 +1,11 @@
+.main-search {
+    background: lightcyan;
+    width: 60%;
+    height: 500px;
+    margin: 100px auto;
+}
+.main-search h2 .main-logo{
+    background: tan;
+    width: 150px;
+    margin:0px auto;
+}

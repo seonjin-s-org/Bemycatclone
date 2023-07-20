@@ -2,7 +2,7 @@
 
 /* header */
 header{
-    background: white;
+    /* background: lightblue; */
     
     display: flex;
     justify-content: center;
@@ -17,11 +17,12 @@ header{
 header .head-wrapper{
     /* background: lightcoral; */
     margin: 0 auto;
-    width: fit-content;
+    width: 60%;
     display: flex;
+    justify-content: flex-end;
     gap: 10px;
 }
-header img{
+header h1 img{
     width: 80px;
 }
 header .head-list{
