@@ -2,7 +2,7 @@
 
 /* header */
 header{
-    /* background: lightblue; */
+    background: lightblue;
     
     display: flex;
     justify-content: center;
@@ -12,6 +12,7 @@ header{
     width: 100%;
     height: 80px;
     top: 0;
+    z-index: 1000;
 }
 header .head-wrapper{
     /* background: lightcoral; */
@@ -32,6 +33,20 @@ header .head-list{
     font-size: 18px;
     font-weight: 700;
 }
+header .head-list .home{
+    position: relative;
+}
+header .head-list .home a::before{
+    content: '';
+    background: yellow;
+    position: absolute;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
 header .head-list .head-item{
    /* border: 1px solid #000; */
    margin: 0 25px;
@@ -41,6 +56,7 @@ header .head-list .writer{
     padding: 10px;
     border-radius: 20px;
  }
+ 
 /* header */
 
 
