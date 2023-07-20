@@ -1,11 +1,23 @@
-.main-search {
+
+section{
     background: lightcyan;
     width: 60%;
-    height: 500px;
-    margin: 100px auto;
+    margin: 150px auto;
 }
-.main-search h2 .main-logo{
-    background: tan;
+section .main-serch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-serch h2 .main-logo{
+    /* background: tan; */
     width: 150px;
-    margin:0px auto;
+    margin-bottom: 15px;
+}
+.main-serch .serchbar{
+    width: 400px;
+    height: 50px;
+    border: 5px solid yellow;
+    border-radius: 30px;
 }
