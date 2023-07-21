@@ -1,0 +1,115 @@
+@import url('common.css');
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.bg{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bg .main-box{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bg .main-box .cat-img{
+    background: url(Creater/img/cat-logo.png)no-repeat center/contain;
+    height: 268px;
+    width: 229px;
+}
+.bg .main-box h2{
+    font-size: 22px;
+    text-align: center;
+}
+.bg .main-box p{
+    margin: 11px 0;
+    font-size: 13px;
+    color: #868688;
+    text-align: center;
+}
+.bg .main-box a{
+    position: relative;
+    width: 300px;
+    height: 44px;
+    font-size: 14px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.bg .main-box .sns-box1{
+    background-color: #03c75a;
+}
+.bg .main-box .sns-box2{
+    background-color: #1877f2;
+}
+.bg .main-box .sns-box3{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #cfcece;
+}
+.bg .main-box .sns-box4{
+    background-color: blue;
+    border: none;
+    background-color: #000;
+}
+.bg .main-box .sns-box5{
+    background-color: #e4e4e6;
+    color: #000;
+}
+.bg .main-box a div{
+    position: absolute;
+    left: 25px;
+}
+.bg .main-box .sns-box1 .logo1{  
+    background: url(Creater/img/naver.svg) no-repeat center/contain;
+     width: 16px;height: 14px;
+}
+.bg .main-box .sns-box2 .logo2{
+    position: absolute;
+    background: url(Creater/img/facebook.png) no-repeat center/contain;
+    width: 25px;height: 25px;    
+}
+.bg .main-box .sns-box3 .logo3{
+    background: url(Creater/img/gogle.svg) no-repeat center;
+    width: 18px;height: 18px;
+}
+.bg .main-box .sns-box4 .logo4{
+    background: url(Creater/img/apple.png) no-repeat center;
+    width: 39px;height: 44px;
+}
+.bg .main-box .sns-box span{
+    font-size: 14px;
+    text-align: center;
+    flex: 5;
+}
+.bg .main-box hr{
+    margin: 30px 0;
+    width: 300px;
+    border: 1px solid #e4e4e6;
+}
+.bg .main-box .textbox{
+    display: flex;
+    margin-bottom: 50px;
+}
+.bg .main-box .textbox em{
+    flex: 1;
+    text-align: center;
+    font-size: 13px;
+    width: 100px;
+    
+}
+.bg .main-box .textbox .em1{
+    border-right:  2px solid #e4e4e6;
+    padding-right: 20px;
+}
