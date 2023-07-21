@@ -50,7 +50,10 @@
 
 .sec2 .contents-wrap{
     /* background: #000; */
-    padding: 60px 100px;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .sec2 .contents-wrap .content-box{
@@ -59,6 +62,7 @@
     width: 400px;
     height: 420px;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
     position: relative;
 }
 .sec2 .contents-wrap .content-box .content-head{
