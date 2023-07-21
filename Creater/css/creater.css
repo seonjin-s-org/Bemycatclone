@@ -152,13 +152,41 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 80px;
 }
-#section1 .main2 div .dog{
+#section1 .main2 .contents-detail div{
+    flex: 1;
+}
+#section1 .main2 .contents-detail div:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#section1 .main2 .contents-detail div .dog{
     background: url(../img/dog.png) no-repeat center/cover;
     height: 170px;
     width: 115px;
+    text-align: center;
+    margin-left: 160px;
 }
-#section1 .main2 .contants-detail .creater-button{
+#section1 .main2 .contents-detail .creater-button{
     display: flex;
+    border: 1px solid #000;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 27px 77px;
+    border: 2px solid #fcd11e;
+    box-shadow: 0 4.8px 4.8px rgba(0,0,0,.25);
+    border-radius: 42px;
+    background: #fff;
+    color: #000;
+    font-size: 21.6px;
+    width: 439px;
+    height: 89px;
+    
 }
