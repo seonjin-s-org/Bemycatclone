@@ -1,6 +1,6 @@
 @import url(../../common.css);
 body{
-    height: 5000px;
+    height: 3000px;
 }
 /* section1 부분 */
 #section1{
@@ -189,4 +189,8 @@ body{
     width: 439px;
     height: 89px;
     
+}
+/* #section1 끝 */
+#section2{
+    height: inherit;
 }
