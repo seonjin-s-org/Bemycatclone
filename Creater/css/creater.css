@@ -2,12 +2,11 @@
 
 /* section1 부분 */
 
-.bg{
+#section1{
     position: relative;
+    width: 100%;
     margin: 0 auto;
     background: url(../img/bg\(1\).png) no-repeat ;
-    width: 100%;
-    height: 2000px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -187,24 +186,23 @@
     height: 89px;
     
 }
-/* #section1 끝 */
-#section2 .main{
+#section1 .main3{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#section2 .main .main-title{
+#section1 .main3 .main-title{
     font-weight: 600;
     font-size: 38px;
 }
-#section2 .main .parent-box{
+#section1 .main3 .parent-box{
     display: flex;
     align-items: center;
     margin-top: 30px;
     margin-bottom: 50px;
 
 }
-#section2 .main .parent-box .box{
+#section1 .main3 .parent-box .box{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -220,7 +218,7 @@
     margin: 35px;
     
 }
-#section2 .main .parent-box .box .img-y{
+#section1 .main3 .parent-box .box .img-y{
     background: url('../img/y-img.png') no-repeat center/cover;
     position: absolute;
     top: -1px;
@@ -232,7 +230,7 @@
     display: flex;
     align-items: center;
 }
-#section2 .main .parent-box .box em{
+#section1 .main3 .parent-box .box em{
     position: absolute;
     top: 35px;
     right: -40px;
@@ -242,32 +240,32 @@
     font-size: 12px;
     font-weight: 600;
 }
-#section2 .main .parent-box .box h3{
+#section1 .main3 .parent-box .box h3{
     font-weight: 600;
     font-size: 18px;
     line-height: 26px;
 }
-#section2 .parent-box hr{
+#section1 .parent-box hr{
     width: 150px;
     margin: 16px auto 27px;
     height: 1.5px;
     border: 0;
     background-color: #fcd11e;
 }
-#section2 .main .parent-box .box p{
+#section1 .main3 .parent-box .box p{
     font-weight: 600;
     font-size: 13px;
     line-height: 167.5%;
     color: #616161;
 }
-#section2 .main .parent-box .box p span{
+#section1 .main3 .parent-box .box p span{
     margin-bottom: 10px;
     font-weight: 800;
     font-size: 18px;
     line-height: 167.5%;
     color: #fcd11e;
 }
-#section2 .main .parent-box .box .img{
+#section1 .main3 .parent-box .box .img{
     margin-top: 30px;
     width: 185px;
     background-size: cover;
@@ -275,21 +273,21 @@
     
     
 }
-#section2 .main .parent-box .box .img1{
+#section1 .main3 .parent-box .box .img1{
     background: url(../img/test.png) no-repeat center/cover;
     height: 118px;
     margin: 20px;
 }
-#section2 .main .parent-box .box .img2{
+#section1 .main3 .parent-box .box .img2{
     background: url(../img/money.png) no-repeat center/cover;
     height: 255px;
 }
-#section2 .main .parent-box .box .img3{
+#section1 .main3 .parent-box .box .img3{
     background: url(../img/animal2.png) no-repeat center/cover;
     height: 151px;
     margin: 80px; 
 }
-#section2 .main .parent-box .box .detail-button{
+#section1 .main3 .parent-box .box .detail-button{
     width: 257px;
     height: 48px;
     margin-top: 70px;
@@ -302,13 +300,21 @@
     font-size: 16px;
     line-height: 24px;
 }
-#section2 .line{
+#section1 .line{
     margin: 100px 0 50px;
     height: 2px;
     border: 0;
     background-color: #fcd11e;
     display: block;
 }
+/* #section1 끝 */
+#section2 .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 /* main2 */
 #section2 .main2{
     display: flex;
