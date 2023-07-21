@@ -1,6 +1,7 @@
 section{
     background: lightcyan;
-    width: 60%;
+    width: 100%;
+    max-width: 1120px;
     margin: 150px auto;
 }
 /* logo */
@@ -39,8 +40,9 @@ section .main-serch{
 /* main article */
 
 section .contents h3{
-    background: lightgoldenrodyellow;
+    /* background: lightgoldenrodyellow; */
     width: fit-content;
+    font-weight: 500;
     margin: 20px auto ;
     font-size: 24px;
 }
@@ -48,7 +50,7 @@ section .contents .imgbox{
     background: url('https://bemypet.kr/_next/image?url=https%3A%2F%2Fcontents.creators.mypetlife.co.kr%2Fcontent%2Fuploads%2F2021%2F09%2F09100117%2F2021092Ffb_a17cbd41675c262aff02604f1f25e4b3.jpg&w=1080&q=75')
                 no-repeat center/cover;
     width: 45%;
-    height: 350px;
+    height: 300px;
     
    
 }
