@@ -1,0 +1,58 @@
+.sec4 h2{
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+.sec4 .qaa-box{
+    margin: 40px auto;
+    background: lightgoldenrodyellow;
+    width: 100%;
+    max-width: 1500px;
+    padding-left: 20%;
+    display: flex;
+    align-items: center;
+}
+.sec4 .qaa-box img{
+    width: 50px;
+}
+.sec4 .qaa-box h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.sec4 .notice{
+    width: 50%;
+    margin: 0 auto;
+    background: lightgreen;
+    line-height: 2.5em;
+}
+.sec4 .btn{
+   width: 100px;
+   height: 40px;
+}
+.sec4 .notice .btn span{
+   font-weight: 400;
+   font-size: 10px;
+}
+.sec4 .notice h4{
+    font-weight: 700;
+    font-size: 20px;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background: #ccc;
+}
+
+.sec4 .more-btn{
+    background: rgb(255, 208, 39);
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    width: 350px;
+    height: 45px;
+    padding-top:15px;
+    border-radius: 50px;
+    margin: 50px auto 0;
+}
