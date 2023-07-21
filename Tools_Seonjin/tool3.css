@@ -24,12 +24,13 @@
 .sec4 .notice{
     width: 50%;
     margin: 0 auto;
-    background: lightgreen;
+    /* background: lightgreen; */
     line-height: 2.5em;
 }
 .sec4 .btn{
    width: 100px;
    height: 40px;
+   margin: 0;
 }
 .sec4 .notice .btn span{
    font-weight: 400;
@@ -43,6 +44,7 @@
     width: 100%;
     height: 2px;
     background: #ccc;
+    margin-bottom: 20px;
 }
 
 .sec4 .more-btn{
@@ -50,9 +52,58 @@
     font-size: 15px;
     font-weight: 700;
     text-align: center;
+    padding-bottom: 10px;
     width: 350px;
-    height: 45px;
-    padding-top:15px;
+    height: 30px;
     border-radius: 50px;
     margin: 50px auto 0;
+}
+
+.sec5{
+    background: lightgoldenrodyellow;
+    width: 100%;
+    max-width: 1500px;
+    margin: 50px auto;
+    padding: 100px;
+}
+
+.sec5 h2{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+}
+
+.sec5 .scroll{
+    /* background: #000; */
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    gap: 30px;
+
+    display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+    
+}
+.sec5 .scroll .content-box{
+    background: #fff;
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+    
+    flex-shrink: 0;
+    
+    overflow:hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec5 .scroll .content-box img{
+    width: 100%;
+    height: 80%;
+}
+.sec5 .scroll .content-box p{
+    padding: 5px 20px;
 }
