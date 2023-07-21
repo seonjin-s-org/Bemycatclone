@@ -57,6 +57,14 @@
     flex-direction: column;
     
 }
+#section1 .main2 .title-box{
+    display: flex;
+}
+#section1 .main2 .circle-check{
+    background: url(../img/circle-check.svg) no-repeat center/contain;
+    height: 40px;
+    width: 80px;
+}
 #section1 .main2 h2{
     /* background: red; */
     font-size: 38px;
