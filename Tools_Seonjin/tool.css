@@ -1,0 +1,132 @@
+.btn{
+    background: rgb(255, 208, 39);
+    width: fit-content;
+    padding: 15px;
+    border-radius: 30px;
+}
+.dog-img,.cat-img{
+    width: 40px;
+}
+.sec1{
+    /* background: salmon; */
+    margin-top: 150px;
+}
+.sec1 h2{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sec1 .box-wrapp{
+    /* background: lightblue; */
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.sec1 .box-wrapp .quiz-box{
+    /* border: 3px solid #000; */
+    overflow: hidden;
+    width: 100%;
+    max-width: 450px;
+    margin-right: 35px;
+    position: relative;
+    padding-top: 45px;
+}
+.sec1 .box-wrapp .quiz-box img{
+    width: 100%; 
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 22px 0 0 22px;
+}
+.sec1 .box-wrapp .quiz-box .q-btn{
+    text-align: center;
+    font-size: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    width: 220px;
+    height: 50px;
+
+    position: absolute;
+    bottom: 30px;
+    left: 25%;
+
+}
+.sec1 .box-wrapp .serch-box-wrap{
+    /* border: 3px solid #000; */
+    width: 35%;
+    max-width: 500px;
+    height: 100%;
+}
+.sec1 .box-wrapp .serch-box-wrap .sb-head{
+    display: flex;
+    height: 40px;
+}
+.sec1 .box-wrapp .serch-box-wrap .sb-head .ser{
+    background: rgb(255, 208, 39);
+    border-radius: 10px 10px 0 0;
+    width: fit-content;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+}
+.sec1 .box-wrapp .serch-box-wrap .serone{
+    background: rgb(255, 229, 135);
+    border-radius: 10px 10px 0 0;
+    padding: 15px 20px;
+    margin-left:20px;
+    display: flex;
+    align-items: center;
+}
+.sec1 .box-wrapp .serch-box-wrap .ser-big{
+    border: 2px solid rgb(255, 208, 39);
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-radius: 0px 10px 10px 10px;
+    width: 450px;
+    height: 470px;
+    padding: 20px;
+
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.sec1 .box-wrapp .serch-box-wrap .ser-big .ani-box-warp{
+    display: flex;
+}
+.sec1 .box-wrapp .serch-box-wrap .ser-big .ani-box{
+    /* border: 2px solid rgb(255, 208, 39); */
+    background: #fff;
+    border-radius: 10px;
+    width: 80px;
+    height: 70px;
+
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.sec1 .box-wrapp .serch-box-wrap .ser-big .select-box{
+    background: rgb(255, 242, 178);
+    border-radius: 10px;
+    width: 90%;
+    height: 80px;
+    margin: 75px 0 75px 20px ;
+    padding-left: 40px;
+
+    display: flex;
+    align-items: center;
+}
+
+.sec1 .box-wrapp .serch-box-wrap .ser-big .ok-btn{
+    margin: 0 auto;
+    width: 200px;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
